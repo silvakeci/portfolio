@@ -3,7 +3,24 @@ import "./contact.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { PiMessengerLogoBold } from "react-icons/pi";
 import { BsWhatsapp } from "react-icons/bs";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
+
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_pqtpug7",
+      "template_0a6fs4s",
+      form.current,
+      "fPvnLrioK8V0lqoDj"
+    );
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get in Touch</h5>
@@ -38,7 +55,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
