@@ -10,10 +10,10 @@
   text-decoration: none;
 }
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg: #4B4B4B;
+  --color-bg-variant: #000000;
+  --color-primary: #f85f11;
+  --color-primary-variant: #FF9001;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
   --transition: all 400ms ease;
@@ -34,7 +34,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
+  background-image: url(../src/assets/img_4.png);
   /*background-repeat: no-repeat;*/
   /*background-size: cover;*/
   /*width: 100vw; !* 100% of viewport width *!*/

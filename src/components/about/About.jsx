@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/s2.png'
 import {LiaAwardSolid} from 'react-icons/lia'
 import {FiUsers} from 'react-icons/fi'
 import {AiFillFolderOpen} from 'react-icons/ai'
@@ -21,12 +21,12 @@ const About=()=>{
                       <article className="about__card">
                           <LiaAwardSolid className="about__icon"/>
                          <h5>Experience</h5>
-                          <small>1+ Years Working</small>
+                          <small>1+ Year Working</small>
                       </article>
                       <article className="about__card">
                           <FiUsers className="about__icon"/>
                           <h5>Clients</h5>
-                          <small>10+</small>
+                          <small>10+ happy clients</small>
                       </article>
                       <article className="about__card">
                           <AiFillFolderOpen className="about__icon"/>
