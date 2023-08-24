@@ -39,6 +39,7 @@ body {
   /*background-size: cover;*/
   /*width: 100vw; !* 100% of viewport width *!*/
   /*height: 100vh; !* 100% of viewport height *!*/
+
 }
 
 /*================GENERAL STYLE================*/
@@ -60,6 +61,7 @@ h1 {
 }
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
