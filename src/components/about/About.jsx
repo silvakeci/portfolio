@@ -36,8 +36,7 @@ const About=()=>{
                   </div>
 
                     <p>
-                        hfdjhgea efgdls fjdsf ;yr sifh rehgfrfhgerhg irghls tjrith edf  ijrfl gsi fsfjsiru u rj rgrg
-                        hguhfirkgnj kiehwiolskrukr ikfrgikuj twijutw;ujewe  tridhtfler
+                        Crafting seamless digital experiences from front-end to back-end, I am a Full Stack Developer with a passion for turning ideas into elegant, functional solutions. With a keen eye for user-centric design and a knack for building robust server systems, I bridge the gap between creativity and technology. My code weaves the fabric of the digital world, ensuring every click is intuitive and every interaction is delightful. Join me on a journey where innovation meets implementation.
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
