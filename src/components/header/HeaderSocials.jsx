@@ -5,10 +5,10 @@ import { BsDribbble } from "react-icons/bs";
 const HeaderSocial = () => {
   return (
     <div className="header__socials">
-      <a href="https://linkedin.com" target="_blank">
+      <a href="https://www.linkedin.com/in/silva-keci-6a3004246/" target="_blank">
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="_blank">
+      <a href="https://github.com/silvakeci" target="_blank">
         <BsGithub />
       </a>
       <a href="https://dribble.com" target="_blank">

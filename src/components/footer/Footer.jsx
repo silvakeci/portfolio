@@ -7,9 +7,7 @@ import { PiTwitterLogoBold } from "react-icons/pi";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
-        EGATOR
-      </a>
+
       <ul className="permalinks">
         <li href="#">Home</li>
         <li href="#about">About</li>
