@@ -44,23 +44,38 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                Website Development: Creating functional and visually appealing
+                websites using various technologies and programming languages.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                Front-end Development: Designing and coding the user interface,
+                ensuring responsive and user-friendly experiences.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                E-commerce Solutions: Building online stores, integrating
+                payment gateways, and implementing shopping cart functionality.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                Responsive Design: Ensuring websites work seamlessly on various
+                devices and screen sizes.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                Web Analytics: Setting up and configuring analytics tools to
+                track website performance and user behavior.
+              </p>
             </li>
           </ul>
         </article>
