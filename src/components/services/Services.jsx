@@ -16,23 +16,38 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                User Interface (UI) Design: Crafting visually appealing and
+                consistent interfaces.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                User Experience (UX) Design: Improving user satisfaction through
+                intuitive and efficient interactions.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                Interaction Design: Designing how users navigate and interact
+                with elements.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                Information Architecture: Structuring content for easy
+                navigation and understanding.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                Responsive Design: Ensuring designs work seamlessly across
+                devices and screens.
+              </p>
             </li>
           </ul>
         </article>
