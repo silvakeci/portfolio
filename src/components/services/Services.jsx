@@ -87,23 +87,38 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                Mobile App Development: Creating functional and user-friendly
+                mobile applications for various platforms (iOS, Android, etc.).
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                Native App Development: Building apps using platform-specific
+                languages and tools (Swift for iOS, Kotlin for Android).
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                E-commerce Mobile Apps: Creating mobile apps for online
+                shopping, including payment integration and product browsing.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                App Optimization: Improving app performance, speed, and
+                responsiveness.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icons" />
-              <p>Lorem, hfhsfishdfshfshfkjdfkjs</p>
+              <p>
+                App Store Deployment: Assisting in submitting apps to app
+                stores, complying with store guidelines and regulations.
+              </p>
             </li>
           </ul>
         </article>
