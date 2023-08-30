@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { HiOutlineMail } from "react-icons/hi";
-import { PiMessengerLogoBold } from "react-icons/pi";
+import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
@@ -36,10 +36,13 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <PiMessengerLogoBold className="contact__option-icon" />
-            <h4>Email </h4>
-            <h5>silvakeci05@gmail.com</h5>
-            <a href="mailto:silvakeci05@gmail.com" target="_blank">
+            <AiOutlineLinkedin className="contact__option-icon" />
+            <h4>Linkedin </h4>
+            <h5>Silva Keci</h5>
+            <a
+              href="https://www.linkedin.com/in/silva-keci-6a3004246/"
+              target="_blank"
+            >
               Send a message
             </a>
           </article>
