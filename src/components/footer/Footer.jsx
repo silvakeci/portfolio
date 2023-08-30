@@ -1,31 +1,31 @@
 import React from "react";
 import "./footer.css";
-import { AiOutlineFacebook } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { PiTwitterLogoBold } from "react-icons/pi";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { BsGithub } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <footer>
-
       <ul className="permalinks">
-        <li href="#">Home</li>
-        <li href="#about">About</li>
-        <li href="#expeirience">Expeirience</li>
-        <li href="#services">Services</li>
-        <li href="#portfolio">Portfolio</li>
-        <li href="#testimonials">Testimonials</li>
-        <li href="#contact">Contact</li>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Expeirience</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        {/* <a href="#testimonials">Testimonials</a> */}
+        <a href="#contact">Contact</a>
       </ul>
       <div className="footer__socials">
         <a href="www.instagram.com">
           <AiOutlineInstagram />
         </a>
-        <a href="www.facebook.com">
-          <AiOutlineFacebook />
+        <a href="https://www.linkedin.com/in/silva-keci-6a3004246/">
+          <AiOutlineLinkedin />
         </a>
-        <a href="www.twitter.com">
-          <PiTwitterLogoBold />
+        <a href="https://github.com/silvakeci">
+          <BsGithub />
         </a>
       </div>
     </footer>
