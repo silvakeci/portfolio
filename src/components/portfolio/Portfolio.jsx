@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG2 from "../../assets/Img2.jpeg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
@@ -19,7 +19,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: "project tittle",
-    github: "https://github.com",
+    github: "https://github.com/silvakeci/game",
     demo: "https://gfudsgfhsfg.com",
   },
   {
