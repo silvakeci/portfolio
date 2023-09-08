@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
+import IMG1 from "../../assets/Img22.jpeg";
 import IMG2 from "../../assets/Img2.jpeg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
@@ -11,14 +11,14 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "project tittle",
+    title: "Food App",
     github: "https://github.com/silvakeci/portfolio",
     demo: "https://gfudsgfhsfg.com",
   },
   {
     id: 2,
     image: IMG2,
-    title: "project tittle",
+    title: "Find The Number App",
     github: "https://github.com/silvakeci/game",
     demo: "https://gfudsgfhsfg.com",
   },
@@ -63,7 +63,7 @@ const Portfolio = () => {
               <div className="portfolio_item-image">
                 <img src={image} alt=" " />
               </div>
-              <h3>This is portfolio item title</h3>
+              <h3>{title}</h3>
               <div className="portfolio_item-cta">
                 <a href={github} className="btn" target="_blank">
                   GitHub
