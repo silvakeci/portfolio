@@ -26,7 +26,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: "project tittle",
-    github: "https://github.com",
+    github: "https://github.com/silvakeci/placeApp",
     demo: "https://gfudsgfhsfg.com",
   },
   {
