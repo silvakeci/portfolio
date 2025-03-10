@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <LiaAwardSolid className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Year Working</small>
+              <small>3+ Year Working</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />

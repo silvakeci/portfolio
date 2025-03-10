@@ -7,52 +7,8 @@ const Services = () => {
     <section id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
-
       <div className="container services__container">
-        <article className="service">
-          <div className="service__head">
-            <h3>UI/UX Design</h3>
-          </div>
-          <ul className="service__list">
-            <li>
-              <BiCheck className="service__list-icons" />
-              <p>
-                User Interface (UI) Design: Crafting visually appealing and
-                consistent interfaces.
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icons" />
-              <p>
-                User Experience (UX) Design: Improving user satisfaction through
-                intuitive and efficient interactions.
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icons" />
-              <p>
-                Interaction Design: Designing how users navigate and interact
-                with elements.
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icons" />
-              <p>
-                Information Architecture: Structuring content for easy
-                navigation and understanding.
-              </p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icons" />
-              <p>
-                Responsive Design: Ensuring designs work seamlessly across
-                devices and screens.
-              </p>
-            </li>
-          </ul>
-        </article>
-
-        <article className="service">
+       <article className="service">
           <div className="service__head">
             <h3>Web Development</h3>
           </div>
